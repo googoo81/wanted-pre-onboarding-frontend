@@ -3,6 +3,7 @@ import { MainStyle } from "../style/MainStyle";
 import { useNavigate } from "react-router-dom";
 import Login from "./Login";
 import { useEffect } from "react";
+
 const Home = ({ isLogin, setIsLogin }) => {
   const navigate = useNavigate();
   useEffect(() => {
@@ -19,6 +20,7 @@ const Home = ({ isLogin, setIsLogin }) => {
     </MainStyle>
   );
 };
+
 const HomeConent = styled.main`
   display: flex;
   flex-direction: column;
@@ -41,4 +43,5 @@ const HomeConent = styled.main`
     }
   }
 `;
+
 export default Home;

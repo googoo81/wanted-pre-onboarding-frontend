@@ -17,12 +17,13 @@ const Input = ({
       type={type}
       name={name}
       placeholder={placeholder}
-      onKeyDown={(e) => {
-        if (e.key === "Enter") onKeyPressFunc(e);
-      }}
+      // onKeyDown={(e) => {
+      //   if (e.key === "Enter") onKeyPressFunc(e);
+      // }}
     ></InputStyle>
   );
 };
+
 const InputStyle = styled.input`
   box-sizing: border-box;
   width: 100%;
@@ -33,4 +34,5 @@ const InputStyle = styled.input`
     outline: none;
   }
 `;
+
 export default Input;

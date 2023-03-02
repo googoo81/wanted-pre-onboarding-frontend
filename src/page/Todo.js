@@ -37,6 +37,7 @@ const Todo = ({ isLogin }) => {
     </MainStyle>
   );
 };
+
 const TodoStyle = styled.div`
   display: flex;
   flex-direction: column;
@@ -48,4 +49,5 @@ const TodoStyle = styled.div`
 
   background-color: white;
 `;
+
 export default Todo;

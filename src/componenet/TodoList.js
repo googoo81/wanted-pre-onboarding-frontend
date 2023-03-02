@@ -19,6 +19,7 @@ const TodoList = ({ todosData, setTodosData }) => {
     </TodoListStyle>
   );
 };
+
 const TodoListStyle = styled.div`
   margin-top: 10px;
   overflow: scroll;

@@ -48,6 +48,7 @@ const TodoInput = ({ todosData, setTodosData }) => {
     </TodoInputStyle>
   );
 };
+
 const TodoInputStyle = styled.div`
   width: 100%;
   .btnArea {
@@ -55,4 +56,5 @@ const TodoInputStyle = styled.div`
     margin-top: 10px;
   }
 `;
+
 export default TodoInput;

@@ -6,6 +6,7 @@ export const fetchJsonData = async (url, method, headers, data) => {
     headers: headers,
     body: body,
   });
+  
   return method.toUpperCase() === "DELETE"
     ? { status: res.status }
     : await res.json();

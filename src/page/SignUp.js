@@ -7,6 +7,7 @@ import { alertForErrorHttpStatus } from "../util/httpStatus";
 import { fetchJsonData } from "../util/fetch";
 import { setAccessToken } from "../util/AccessToken";
 import Button from "../componenet/Button";
+
 const SignUp = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
@@ -15,6 +16,7 @@ const SignUp = () => {
   const signUpFormData = { email, password };
   const regex = /^[0-9A-Za-z._-]+@[0-9A-Za-z._-]+\.[a-zA-Z]{2,3}$/;
   const navigate = useNavigate();
+  
   const onChangeinputValue = (e, name) => {
     const value = e.target.value;
     if (name === "아이디") {
@@ -40,6 +42,7 @@ const SignUp = () => {
   };
 
   const onClickSignUp = async (e) => {
+
     e.preventDefault();
 
     const data = await fetchJsonData(
@@ -58,6 +61,7 @@ const SignUp = () => {
     // http status error인 경우
     alertForErrorHttpStatus(data);
   };
+
   return (
     <MainStyle>
       <h2 className="title">회원가입</h2>

@@ -63,6 +63,7 @@ const Login = ({ setIsLogin }) => {
     </FromStyle>
   );
 };
+
 const FromStyle = styled.form`
   border: 1px solid lightgray;
   background-color: white;
@@ -86,4 +87,5 @@ const FromStyle = styled.form`
     margin-top: 20px;
   }
 `;
+
 export default Login;

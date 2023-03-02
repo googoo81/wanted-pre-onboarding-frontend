@@ -134,6 +134,7 @@ const TodoItem = ({ todoItemData, todosData, setTodosData, idx }) => {
     </TodoItemStyle>
   );
 };
+
 const TodoItemStyle = styled.div`
   display: flex;
   flex-direction: column;
@@ -178,4 +179,5 @@ const TodoItemStyle = styled.div`
     }
   }
 `;
+
 export default TodoItem;

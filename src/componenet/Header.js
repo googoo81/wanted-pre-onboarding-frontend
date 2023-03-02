@@ -30,6 +30,7 @@ const Header = ({ isLogin, setIsLogin }) => {
     </HeaderStyle>
   );
 };
+
 const HeaderStyle = styled.header`
   position: fixed;
   z-index: 10;
@@ -61,4 +62,5 @@ const HeaderStyle = styled.header`
     }
   }
 `;
+
 export default Header;
