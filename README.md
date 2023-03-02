@@ -5,7 +5,7 @@
 ## 프로젝트에 사용한 라이브러리
 - React
 - React Router
-- Styled Component
+- Styled Components
 
 <br>
 
