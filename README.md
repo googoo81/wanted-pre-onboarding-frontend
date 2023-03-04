@@ -20,3 +20,5 @@ $ npm install
 ```
 $ npm start
 ```
+
+#### <a href="https://github.com/googoo81/TIL/blob/main/Memoir/WantedPreonboarding_memoir.md">회고록</a>
