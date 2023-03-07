@@ -17,9 +17,7 @@ const Input = ({
       type={type}
       name={name}
       placeholder={placeholder}
-      // onKeyDown={(e) => {
-      //   if (e.key === "Enter") onKeyPressFunc(e);
-      // }}
+
     ></InputStyle>
   );
 };
